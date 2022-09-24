@@ -28,7 +28,7 @@ async function init(){
     //Load liveries
 
 
-    await fetch("https://gist.githubusercontent.com/iuhairways/11508f80d63f1336e43ca920187903cd/raw/5c031785e399b3579ba3e4e00c0a430d6b33bfed/modified%2520liveryjson%2520kolos26").then(res => res.json()).then(data => liveryobj = data)
+    await fetch("https://gist.githubusercontent.com/iuhairways/11508f80d63f1336e43ca920187903cd/raw/1a67a4f257ab0cee232dd19635733fddd62b23df/modified%2520liveryjson%2520kolos26").then(res => res.json()).then(data => liveryobj = data)
 
 
     //remove original buttons
